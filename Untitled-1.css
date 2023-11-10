@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    padding-left: 150px;
+}
+
+.phone{
+    padding-right: 150px;
+}
+
+.logo_search_phone {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    background-color: #eee;
+    padding: 10px;
+    justify-content: center;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
